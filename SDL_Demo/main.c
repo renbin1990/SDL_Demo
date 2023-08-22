@@ -84,6 +84,7 @@ int main()
         SDL_RenderPresent(renderer);
         SDL_Delay(300);
         if(show_count++ >=30){
+            //执行结束
             run = 0;
         }
     }
